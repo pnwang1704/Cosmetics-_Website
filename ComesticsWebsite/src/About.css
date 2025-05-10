@@ -1,0 +1,62 @@
+/* Import font chữ */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap");
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Kiểu cho thẻ lật 3D */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Hiệu ứng chuyển đổi mượt */
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.transition-transform {
+  transition: transform 0.5s ease;
+}
+
+/* Hiệu ứng hover cho nút */
+button:not(:disabled):hover,
+a:not(:disabled):hover {
+  box-shadow: 0 0 15px rgba(22, 163, 74, 0.3);
+}
+
+/* Accessibility cho điều hướng carousel */
+button[aria-label^="Đi đến testimonial"],
+button[aria-label^="Testimonial trước"],
+button[aria-label^="Testimonial tiếp theo"] {
+  outline: none;
+}
+
+button[aria-label^="Đi đến testimonial"]:focus,
+button[aria-label^="Testimonial trước"]:focus,
+button[aria-label^="Testimonial tiếp theo"]:focus {
+  outline: 2px solid #16a34a;
+  outline-offset: 2px;
+}
+
+/* Đảm bảo hình ảnh responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}

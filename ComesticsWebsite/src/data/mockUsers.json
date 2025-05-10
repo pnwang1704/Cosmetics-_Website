@@ -1,0 +1,26 @@
+[
+  {
+    "username": "user",
+    "email": "user@example.com",
+    "password": "password123",
+    "avatar": "https://picsum.photos/200/200?random=1"
+  },
+  {
+    "username": "pnquang",
+    "email": "dangthaibao14@gmail.com.vn",
+    "password": "123456",
+    "avatar": "/src/assets/img/icon-7797704_1280.png"
+  },
+  {
+    "username": "user1",
+    "email": "pnquangcn1704@gmail.com.vn",
+    "password": "123123",
+    "avatar": "/src/assets/img/icon-7797704_1280.png"
+  },
+  {
+    "username": "quang",
+    "email": "quangphan@gmail.com.vn",
+    "password": "123123",
+    "avatar": "/src/assets/img/icon-7797704_1280.png"
+  }
+]

@@ -1,0 +1,54 @@
+/* Import font chữ */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;600&display=swap");
+
+.font-playfair {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Viền gradient xanh lá cho form */
+.contact-form {
+  border: 2px solid transparent;
+  border-image: linear-gradient(to bottom, #16a34a, #fff);
+  border-image-slice: 1;
+}
+
+/* Hiệu ứng hover và focus cho input */
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Đảm bảo responsive */
+iframe,
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hiệu ứng cho nút FAQ */
+button[aria-expanded="true"] {
+  background-color: #bbf7d0 !important;
+}
+
+/* Accessibility */
+a[aria-label^="Kết nối qua"] {
+  outline: none;
+}
+
+a[aria-label^="Kết nối qua"]:focus {
+  outline: 2px solid #16a34a;
+  outline-offset: 2px;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #a0aec0; /* Màu placeholder nhẹ để không bị nhầm lẫn với icon */
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding-left: 3rem !important; /* Đảm bảo padding-left đủ lớn */
+}
